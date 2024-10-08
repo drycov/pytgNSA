@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+python-telegram-bot = "*"
+pydantic = "*"
+sqlalchemy = "*"
+requests = "*"
+supervisor = "*"
+python-dotenv = "*"
+hypercorn = "*"
+
+[dev-packages]
+supervisor = "*"
+py-mon = "*"
+
+[requires]
+python_version = "3.12"
